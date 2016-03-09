@@ -1,0 +1,4 @@
+Class : mahasiswa, lapangan
+Objek : mahasiswa1, mahasiswa2,....n
+atribut : nim, nama_mahasiswa, jumlahPutaran, jumlah_waktu, p, l
+method: mahasiswa, getnim, getnama_mahasiswa, getjumlahPutaran, gethitungJarak, getMenang, hitungPemenang, lapangan, getkeliling
