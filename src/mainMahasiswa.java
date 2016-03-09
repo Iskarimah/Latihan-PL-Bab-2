@@ -28,9 +28,21 @@ public class mainMahasiswa {
           for (int i=0;i<jumlah_mahasiswa;i++){
         System.out.println(mhs[i].nama_mahasiswa+" "+mhs[i].gethitungJarak(lp));
         }
-         
+         int max;
+         int hasil []=new int [jumlah_mahasiswa];
+         for (int i=0;i<jumlah_mahasiswa;i++){
+             hasil [i] = mhs[i].getMenang();
+         }
+         if (mhs[0].getMenang()>mhs[1].getMenang()){
+             max=hasil[0];
+             System.out.println(mhs[0].getnama_mahasiswa());
+         }else if (mhs[1].getMenang()>mhs[2].getMenang ()){
+             max=hasil[1];
+             System.out.println(mhs[1].getnama_mahasiswa());
+         }else
+         max=hasil[2];
+         System.out.println (mhs[2]);
     }
 
-    
     
 }
