@@ -41,7 +41,7 @@ public class mainMahasiswa {
              System.out.println(mhs[1].getnama_mahasiswa());
          }else
          max=hasil[2];
-         System.out.println (mhs[2]);
+         System.out.println (mhs[2].getnama_mahasiswa());
     }
 
     
